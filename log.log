@@ -1,0 +1,313 @@
+2020-11-29 16:53:47.030  INFO 32808 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 32808 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 16:53:47.034 DEBUG 32808 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 16:53:47.041  INFO 32808 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 16:53:49.248  INFO 32808 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 16:53:49.777 ERROR 32808 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 16:53:49.818  INFO 32808 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 16:53:52.633  INFO 32808 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 16:53:53.801  INFO 32808 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 7.617 seconds (JVM running for 10.204)
+2020-11-29 16:53:56.066  INFO 32808 --- [main] p6spy                                    :  Consume Time：18 ms 2020-11-29 16:53:56
+ Execute SQL：SELECT id,name,age,email,version,deleted,gmt_create,gmt_modify FROM user WHERE id=6 AND deleted=0
+
+2020-11-29 16:53:56.160  INFO 32808 --- [main] com.lz.handler.MyMetaObjectHandler       : start update fill
+2020-11-29 16:53:56.195  INFO 32808 --- [main] p6spy                                    :  Consume Time：13 ms 2020-11-29 16:53:56
+ Execute SQL：UPDATE user SET name='lz', age=100, email='123@qq.com', version=16, gmt_create='2020-11-28T23:13:34.289+0800', gmt_modify='2020-11-29T12:46:45.985+0800' WHERE id=6 AND version=15 AND deleted=0
+
+2020-11-29 16:53:56.253  INFO 32808 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 16:53:56.254  INFO 32808 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 16:53:56.262  INFO 32808 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 16:55:26.919  INFO 28044 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 28044 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 16:55:26.930 DEBUG 28044 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 16:55:26.934  INFO 28044 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 16:55:32.232  INFO 28044 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 16:55:33.598 ERROR 28044 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 16:55:33.678  INFO 28044 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 16:55:39.472  INFO 28044 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 16:55:41.839  INFO 28044 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 16.039 seconds (JVM running for 18.256)
+2020-11-29 16:55:46.600  INFO 28044 --- [main] p6spy                                    :  Consume Time：48 ms 2020-11-29 16:55:46
+ Execute SQL：SELECT id,name,age,email,version,deleted,gmt_create,gmt_modify FROM user WHERE id=6 AND deleted=0
+
+2020-11-29 16:55:46.750  INFO 28044 --- [main] com.lz.handler.MyMetaObjectHandler       : start update fill
+2020-11-29 16:55:46.797  INFO 28044 --- [main] p6spy                                    :  Consume Time：13 ms 2020-11-29 16:55:46
+ Execute SQL：UPDATE user SET name='lz', age=100, email='123@qq.com', version=17, gmt_create='2020-11-28T23:13:34.289+0800', gmt_modify='2020-11-29T12:46:45.985+0800' WHERE id=6 AND version=16 AND deleted=0
+
+2020-11-29 16:55:46.835  INFO 28044 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 16:55:46.835  INFO 28044 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 16:55:46.849  INFO 28044 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 18:37:47.927  INFO 6280 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 6280 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 18:37:47.929 DEBUG 6280 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 18:37:47.932  INFO 6280 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 18:37:49.329  INFO 6280 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 18:37:49.526 ERROR 6280 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 18:37:49.543  INFO 6280 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 18:37:50.866  INFO 6280 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:37:51.450  INFO 6280 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.12 seconds (JVM running for 5.716)
+2020-11-29 18:37:51.810  INFO 6280 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:37:51.812  INFO 6280 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 18:37:51.813  INFO 6280 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 18:41:01.570  INFO 32268 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 32268 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 18:41:01.571 DEBUG 32268 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 18:41:01.573  INFO 32268 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 18:45:10.137  INFO 33072 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 33072 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 18:45:10.139 DEBUG 33072 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 18:45:10.142  INFO 33072 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 18:45:11.199  INFO 33072 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 18:45:11.352 ERROR 33072 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 18:45:11.367  INFO 33072 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 18:45:12.521  INFO 33072 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:45:12.984  INFO 33072 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 3.279 seconds (JVM running for 4.43)
+2020-11-29 18:45:14.348  INFO 33072 --- [main] p6spy                                    :  Consume Time：25 ms 2020-11-29 18:45:14
+ Execute SQL：show table status WHERE 1=1 AND NAME IN ('blog')
+
+2020-11-29 18:45:14.361  INFO 33072 --- [main] p6spy                                    :  Consume Time：8 ms 2020-11-29 18:45:14
+ Execute SQL：show full fields from `blog`
+
+2020-11-29 18:45:14.412  INFO 33072 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:45:14.414  INFO 33072 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 18:45:14.415  INFO 33072 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 18:47:01.088  INFO 27560 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 27560 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 18:47:01.089 DEBUG 27560 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 18:47:01.091  INFO 27560 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 18:47:02.330  INFO 27560 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 18:47:02.527 ERROR 27560 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 18:47:02.546  INFO 27560 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 18:47:04.015  INFO 27560 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:47:04.549  INFO 27560 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 3.885 seconds (JVM running for 5.005)
+2020-11-29 18:47:05.892  INFO 27560 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:47:05.893  INFO 27560 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 18:47:05.894  INFO 27560 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 18:48:48.610  INFO 19844 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 19844 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 18:48:48.617 DEBUG 19844 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 18:48:48.621  INFO 19844 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 18:48:50.492  INFO 19844 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 18:48:50.757 ERROR 19844 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 18:48:50.772  INFO 19844 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 18:48:52.742  INFO 19844 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:48:53.632  INFO 19844 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 5.824 seconds (JVM running for 7.632)
+2020-11-29 18:48:55.538  INFO 19844 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:48:55.538  INFO 19844 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 18:48:55.540  INFO 19844 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 18:49:14.983  INFO 6012 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 6012 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 18:49:14.986 DEBUG 6012 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 18:49:14.989  INFO 6012 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 18:49:17.065  INFO 6012 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 18:49:17.400 ERROR 6012 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 18:49:17.425  INFO 6012 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 18:49:18.931  INFO 6012 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:49:19.515  INFO 6012 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 5.045 seconds (JVM running for 6.947)
+2020-11-29 18:49:21.378  INFO 6012 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:49:21.378  INFO 6012 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 18:49:21.380  INFO 6012 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 18:54:41.069  INFO 28904 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 28904 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 18:54:41.070 DEBUG 28904 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 18:54:41.073  INFO 28904 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 18:54:42.461  INFO 28904 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 18:54:42.689 ERROR 28904 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 18:54:42.710  INFO 28904 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 18:54:44.274  INFO 28904 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:54:45.191  INFO 28904 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.653 seconds (JVM running for 6.594)
+2020-11-29 18:54:46.880  INFO 28904 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:54:46.881  INFO 28904 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 18:54:46.882  INFO 28904 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:04:28.000  INFO 25784 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 25784 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:04:28.001 DEBUG 25784 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:04:28.005  INFO 25784 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:04:29.379  INFO 25784 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:04:29.633 ERROR 25784 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:04:29.653  INFO 25784 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:04:31.312  INFO 25784 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:04:31.868  INFO 25784 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.369 seconds (JVM running for 5.913)
+2020-11-29 19:04:33.474  INFO 25784 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:04:33.475  INFO 25784 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:04:33.476  INFO 25784 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:06:55.200  INFO 33232 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 33232 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:06:55.203 DEBUG 33232 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:06:55.207  INFO 33232 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:06:56.706  INFO 33232 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:06:56.909 ERROR 33232 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:06:56.937  INFO 33232 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:06:58.486  INFO 33232 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:06:59.115  INFO 33232 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.379 seconds (JVM running for 5.746)
+2020-11-29 19:07:01.355  INFO 33232 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:07:01.356  INFO 33232 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:07:01.357  INFO 33232 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:07:43.705  INFO 17472 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 17472 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:07:43.710 DEBUG 17472 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:07:43.721  INFO 17472 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:07:45.146  INFO 17472 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:07:45.416 ERROR 17472 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:07:45.433  INFO 17472 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:07:46.755  INFO 17472 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:07:47.412  INFO 17472 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.247 seconds (JVM running for 5.923)
+2020-11-29 19:07:48.953  INFO 17472 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:07:48.954  INFO 17472 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:07:48.956  INFO 17472 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:09:45.443  INFO 27000 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 27000 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:09:45.445 DEBUG 27000 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:09:45.452  INFO 27000 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:09:46.669  INFO 27000 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:09:46.854 ERROR 27000 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:09:46.871  INFO 27000 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:09:48.403  INFO 27000 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:09:48.999  INFO 27000 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.062 seconds (JVM running for 5.196)
+2020-11-29 19:09:50.522  INFO 27000 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:09:50.523  INFO 27000 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:09:50.524  INFO 27000 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:10:32.823  INFO 25776 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 25776 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:10:32.825 DEBUG 25776 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:10:32.829  INFO 25776 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:10:34.219  INFO 25776 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:10:40.004  INFO 33172 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 33172 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:10:40.007 DEBUG 33172 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:10:40.013  INFO 33172 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:10:41.777  INFO 33172 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:10:42.004 ERROR 33172 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:10:42.031  INFO 33172 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:10:43.638  INFO 33172 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:10:44.210  INFO 33172 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.738 seconds (JVM running for 6.119)
+2020-11-29 19:10:45.589  INFO 33172 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:10:45.590  INFO 33172 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:10:45.592  INFO 33172 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:14:10.644  INFO 12752 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 12752 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:14:10.649 DEBUG 12752 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:14:10.659  INFO 12752 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:14:12.140  INFO 12752 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:14:12.341 ERROR 12752 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:14:12.358  INFO 12752 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:14:13.802  INFO 12752 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:14:14.546  INFO 12752 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.424 seconds (JVM running for 5.728)
+2020-11-29 19:14:16.152  INFO 12752 --- [main] p6spy                                    :  Consume Time：18 ms 2020-11-29 19:14:16
+ Execute SQL：INSERT INTO blog ( title, describe, content ) VALUES ( 'plmn', '...', 'hello' )
+
+2020-11-29 19:14:16.269  INFO 12752 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:14:16.270  INFO 12752 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:14:16.278  INFO 12752 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:14:51.021  INFO 31496 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 31496 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:14:51.023 DEBUG 31496 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:14:51.026  INFO 31496 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:14:52.623  INFO 31496 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:14:52.812 ERROR 31496 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:14:52.827  INFO 31496 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:14:54.321  INFO 31496 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:14:54.849  INFO 31496 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.469 seconds (JVM running for 5.791)
+2020-11-29 19:14:56.412  INFO 31496 --- [main] p6spy                                    :  Consume Time：22 ms 2020-11-29 19:14:56
+ Execute SQL：INSERT INTO blog ( title, describe, content ) VALUES ( 'plmn', 'desc', 'hello' )
+
+2020-11-29 19:14:56.552  INFO 31496 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:14:56.556  INFO 31496 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:14:56.564  INFO 31496 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:20:30.551  INFO 22260 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 22260 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:20:30.553 DEBUG 22260 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:20:30.556  INFO 22260 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:20:31.680  INFO 22260 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:20:31.840 ERROR 22260 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:20:31.855  INFO 22260 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:20:33.103  INFO 22260 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:20:33.681  INFO 22260 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 3.548 seconds (JVM running for 4.656)
+2020-11-29 19:20:35.218  INFO 22260 --- [main] p6spy                                    :  Consume Time：17 ms 2020-11-29 19:20:35
+ Execute SQL：INSERT INTO blog ( title, describe, content ) VALUES ( 'plmn', 'desc', 'hello' )
+
+2020-11-29 19:20:35.318  INFO 22260 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:20:35.319  INFO 22260 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:20:35.326  INFO 22260 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:20:47.266  INFO 28432 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 28432 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:20:47.268 DEBUG 28432 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:20:47.274  INFO 28432 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:20:48.715  INFO 28432 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:20:48.916 ERROR 28432 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:20:48.934  INFO 28432 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:20:50.471  INFO 28432 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:20:51.015  INFO 28432 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.344 seconds (JVM running for 5.657)
+2020-11-29 19:20:52.413  INFO 28432 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:20:52.414  INFO 28432 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:20:52.415  INFO 28432 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:22:15.862  INFO 21912 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 21912 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:22:15.864 DEBUG 21912 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:22:15.866  INFO 21912 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:22:17.312  INFO 21912 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:22:17.501 ERROR 21912 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:22:17.516  INFO 21912 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:22:19.078  INFO 21912 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:22:19.619  INFO 21912 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.191 seconds (JVM running for 5.303)
+2020-11-29 19:22:19.994  INFO 21912 --- [main] com.lz.handler.MyMetaObjectHandler       : start insert fill
+2020-11-29 19:22:20.999  INFO 21912 --- [main] p6spy                                    :  Consume Time：20 ms 2020-11-29 19:22:20
+ Execute SQL：INSERT INTO blog ( title, describe, content, gmt_create, gmt_modify ) VALUES ( 'plmn', 'desc', 'hello', '2020-11-29T19:22:19.994+0800', '2020-11-29T19:22:19.997+0800' )
+
+2020-11-29 19:22:21.122  INFO 21912 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:22:21.123  INFO 21912 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:22:21.130  INFO 21912 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:26:04.277  INFO 29308 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 29308 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:26:04.281 DEBUG 29308 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:26:04.284  INFO 29308 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:26:05.872  INFO 29308 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:26:06.185 ERROR 29308 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:26:06.204  INFO 29308 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:26:07.729  INFO 29308 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:26:08.385  INFO 29308 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.879 seconds (JVM running for 6.522)
+2020-11-29 19:26:10.151  INFO 29308 --- [main] p6spy                                    :  Consume Time：20 ms 2020-11-29 19:26:10
+ Execute SQL：INSERT INTO blog ( title, describe, content ) VALUES ( 'plmn', 'desc', 'hello' )
+
+2020-11-29 19:26:10.255  INFO 29308 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:26:10.256  INFO 29308 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:26:10.263  INFO 29308 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:39:15.119  INFO 25232 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 25232 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:39:15.121 DEBUG 25232 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:39:15.123  INFO 25232 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:39:16.614  INFO 25232 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:39:16.833 ERROR 25232 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:39:16.849  INFO 25232 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:39:18.385  INFO 25232 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:39:19.061  INFO 25232 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.468 seconds (JVM running for 5.925)
+2020-11-29 19:39:20.698  INFO 25232 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:39:20.698  INFO 25232 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:39:20.700  INFO 25232 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:39:34.451  INFO 25996 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 25996 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:39:34.454 DEBUG 25996 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:39:34.460  INFO 25996 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:39:36.057  INFO 25996 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:39:36.344 ERROR 25996 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:39:36.367  INFO 25996 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:39:38.147  INFO 25996 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:39:38.735  INFO 25996 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.817 seconds (JVM running for 6.45)
+2020-11-29 19:39:40.058  INFO 25996 --- [main] p6spy                                    :  Consume Time：13 ms 2020-11-29 19:39:40
+ Execute SQL：INSERT INTO blog ( title, desc, content ) VALUES ( 'plmn', 'desc', 'hello' )
+
+2020-11-29 19:39:40.140  INFO 25996 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:39:40.141  INFO 25996 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:39:40.146  INFO 25996 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:40:58.771  INFO 11488 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 11488 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:40:58.773 DEBUG 11488 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:40:58.777  INFO 11488 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:41:00.037  INFO 11488 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:41:00.243 ERROR 11488 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:41:00.257  INFO 11488 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:41:01.833  INFO 11488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:41:02.358  INFO 11488 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.238 seconds (JVM running for 6.055)
+2020-11-29 19:41:03.952  INFO 11488 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:41:03.953  INFO 11488 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:41:03.955  INFO 11488 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:42:16.461  INFO 12024 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 12024 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:42:16.463 DEBUG 12024 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:42:16.465  INFO 12024 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:42:17.957  INFO 12024 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:42:18.182 ERROR 12024 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:42:18.199  INFO 12024 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:42:19.854  INFO 12024 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:42:20.422  INFO 12024 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.377 seconds (JVM running for 5.547)
+2020-11-29 19:42:21.904  INFO 12024 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:42:21.905  INFO 12024 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:42:21.907  INFO 12024 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-11-29 19:42:36.233  INFO 32188 --- [main] com.lz.MybatisPlusApplicationTests       : Starting MybatisPlusApplicationTests using Java 1.8.0_131 on DESKTOP-M2RE5MF with PID 32188 (started by 乐。 in E:\JavaProjects\FollowTest\mybatis_plus)
+2020-11-29 19:42:36.235 DEBUG 32188 --- [main] com.lz.MybatisPlusApplicationTests       : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-29 19:42:36.237  INFO 32188 --- [main] com.lz.MybatisPlusApplicationTests       : No active profile set, falling back to default profiles: default
+2020-11-29 19:42:38.004  INFO 32188 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-11-29 19:42:38.204 ERROR 32188 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2020-11-29 19:42:38.221  INFO 32188 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-11-29 19:42:39.851  INFO 32188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:42:40.360  INFO 32188 --- [main] com.lz.MybatisPlusApplicationTests       : Started MybatisPlusApplicationTests in 4.752 seconds (JVM running for 6.14)
+2020-11-29 19:42:41.775  INFO 32188 --- [main] p6spy                                    :  Consume Time：9 ms 2020-11-29 19:42:41
+ Execute SQL：INSERT INTO blog ( title, content ) VALUES ( 'plmn', 'hello' )
+
+2020-11-29 19:42:41.812  INFO 32188 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:42:41.813  INFO 32188 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-11-29 19:42:41.817  INFO 32188 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
